@@ -313,6 +313,10 @@
   font-size: 1.5rem;
 }
 
+.list-item--hide {
+  visibility: hidden;
+}
+
 /* *************************** */
 /* below 425 width (M phones)*/
 
