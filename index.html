@@ -10,7 +10,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Omnifood</title>
+    <link
+      rel="icon"
+      href="/img/favicon - Copy.png"
+    />
+    <link
+      rel="apple.icon"
+      href="/img/favicon - apple.png"
+    />
+    <link
+      rel="manifest"
+      href="manifest.webmanifest"
+    />
+    <title>Omnifood &mdash; Never cook again!</title>
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -175,11 +187,21 @@
             </div>
           </div>
           <div class="hero-image-box">
-            <img
-              class="hero-image"
-              src="img/hero.png"
-              alt="hero-img"
-            />
+            <picture>
+              <source
+                srcset="img/hero.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="img/hero.png"
+                type="image/png"
+              />
+              <img
+                class="hero-image"
+                src="img/hero.webp"
+                alt="hero-img"
+              />
+            </picture>
           </div>
         </div>
       </section>
